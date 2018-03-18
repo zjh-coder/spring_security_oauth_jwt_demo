@@ -1,0 +1,8 @@
+# spring_security_oauth_jwt_demo
+A spring security oauth2 with jwt demo
+
+http://localhost:8080/oauth/authorize?client_id=normal-app&response_type=code&scope=read&redirect_uri=/resources/user
+
+http://localhost:8080/oauth/token?code=mYjG9V&grant_type=authorization_code&client_id=normal-app&redirect_uri=/resources/user
+
+http://localhost:8080/resources/admin?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsic3ByaW5nLWJvb3QtYXBwbGljYXRpb24iXSwidXNlcl9uYW1lIjoidXNlciIsInNjb3BlIjpbInJlYWQiXSwicm9sZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfVVNFUiJ9XSwiZXhwIjoxNTIxMzkyNDY5LCJ1c2VyTmFtZSI6InVzZXIiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiMzFhZTY0ODktM2E5Yi00ZTY0LWI4YzAtYTYwMmZhOGI3YTg2IiwiY2xpZW50X2lkIjoibm9ybWFsLWFwcCJ9.MnYZvGwruV2TjICt0greo9OkJ5vScVx6gGgiJ9Luk-k
